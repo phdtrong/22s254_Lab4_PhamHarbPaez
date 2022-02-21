@@ -5,6 +5,6 @@ class implement
 	private:
 		//nothing
 	public:
-		void read_me();
+		int read_me();
 };
 #endif
