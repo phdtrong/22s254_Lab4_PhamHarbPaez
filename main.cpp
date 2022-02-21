@@ -3,7 +3,8 @@
 using namespace std;
 int main () 
 {
+	implement my_imp;
 	cout << "Content of read_me file" << endl;
-	read_me();
+	//my_imp.read_me();
   return 0;
 }
