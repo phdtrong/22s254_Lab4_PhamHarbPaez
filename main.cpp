@@ -1,9 +1,9 @@
 #include <iostream>
+#include "implement.h"
 using namespace std;
-
-int main()
+int main () 
 {
-	cout << "Hello World" << endl;
-	cout << "2.3" << endl;
-	return 0;
+	cout << "Content of read_me file" << endl;
+	implement::read_me();
+  return 0;
 }
