@@ -4,7 +4,7 @@
 #include <string>
 #include "implement.h"
 using namespace std;
-void implement::read_me()
+int implement::read_me()
 {
   string line;
   ifstream myfile ("README.md");
@@ -13,7 +13,9 @@ void implement::read_me()
     while ( getline (myfile,line) )
       cout << line << '\n';
     myfile.close();
+		return 1;
   }
   else 
 		cout << "Unable to open file"; 
+		return 0;
 }
