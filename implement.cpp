@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #inlcude <fstream>
 #include <string>
@@ -23,3 +24,6 @@ int implement::readme()
     return -1;
   }
 }
+=======
+
+>>>>>>> 71498a8e5dc96d01a6e116796d7f18696ddb36af
